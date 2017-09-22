@@ -4,6 +4,8 @@ Estudo e desenvolvimento de um dispositivo IoT Energy, no qual monitora o consum
 
 Equipamentos:
 
-WEMOS D1 MINI PRO ESQUEMÁTICO
+WEMOS D1 MINI PRO mais informações neste link: https://wiki.wemos.cc/products:d1:d1_mini_pro
 ![alt text](https://raw.githubusercontent.com/filipecavalc/IOT---monitoring-of-the-electrical-consumption-of-equipment/master/wemos_d1_mini_pro_pinout.png)
 
+ACS712 5A
+![alt text](https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/ACS-712-Pinouts.png)
