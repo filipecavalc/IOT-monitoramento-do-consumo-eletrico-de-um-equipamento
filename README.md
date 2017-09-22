@@ -1,9 +1,9 @@
-# IOT monitoring of the electrical consumption of equipment
-Study and development of an IoT Energy device in which it monitors the consumption of an outlet collecting, storing and making available data collected from the IoT devices on the WEB.
+# IOT Monitoramento do consumo eletrico de um equipamento
+Estudo e desenvolvimento de um dispositivo IoT Energy, no qual monitora o consumo de uma tomada coletando, armazenando e disponibilizando dados coletados do dispositivo IoT na WEB. 
 
 
-Equipments:
+Equipamentos:
 
-WEMOS D1 MINI PRO SCHEMATICS
+WEMOS D1 MINI PRO ESQUEMÁTICO
 ![alt text](https://raw.githubusercontent.com/filipecavalc/IOT---monitoring-of-the-electrical-consumption-of-equipment/master/wemos_d1_mini_pro_pinout.png)
 
