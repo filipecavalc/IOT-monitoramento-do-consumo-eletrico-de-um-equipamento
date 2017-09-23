@@ -7,7 +7,7 @@ Equipamentos:
 WEMOS D1 MINI PRO. Mais informações neste link: https://wiki.wemos.cc/products:d1:d1_mini_pro
 <img alt="WEMOS D1 MINI PRO SCHEMATIC" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/wemos_d1_mini_pro_pinout.png" width="800">
 
-ANTENA WEMOS D1 MINI PRO. Sem detalhes, antena padrão e conector padrão, pode ser obtida no kit do WEMOS que estou usando.
+ANTENA WEMOS D1 MINI PRO. Sem detalhes, antena padrão e conector padrão, pode ser obtida no kit do WEMOS.
 <img alt="ANTENA WEMOS D1 MINI PRO" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/antena.jpg" width="250">
 
 ACS712 5A. (Vale o aviso de que o output do sensor foi ligado diretamente no analogico do WEMOS D1 MINI PRO, pois o mesmo trabalha em uma faixa de até 3.4 volts no output, outro modelo de ACS712 trabalham com tensões mais altas no output, então o circuito deverá ser revisitado com as devidas alterações) Mais informações neste link: http://henrysbench.capnfatz.com/henrys-bench/arduino-current-measurements/acs712-current-sensor-user-manual/
