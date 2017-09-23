@@ -5,8 +5,7 @@ Estudo e desenvolvimento de um dispositivo IoT Energy, no qual monitora o consum
 Equipamentos:
 
 WEMOS D1 MINI PRO. Mais informações neste link: https://wiki.wemos.cc/products:d1:d1_mini_pro
-![WEMOS D1 MINI PRO SCHEMATIC](https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/wemos_d1_mini_pro_pinout.png)
-
+<img alt="WEMOS D1 MINI PRO SCHEMATIC" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/wemos_d1_mini_pro_pinout.png" width="250">
 ANTENA WEMOS D1 MINI PRO. Sem detalhes, antena padrão e conector padrão, pode ser obtida no kit do WEMOS que estou usando.
 ![ANTENA WEMOS D1 MINI PRO](https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/antena.jpg =250X250)
 
