@@ -14,5 +14,5 @@ Estudo e desenvolvimento de um dispositivo IoT para o monitoramento do consumo d
 
 | Protótipagem | 
 | ------ |
-| Circuito Elétrico <img alt="Circuito Monitor Consumo Eletrico IOT" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/IOTEnergia_circuit.png" width="1000"> |
-| Protótipo PCB <img alt="PCB Monitor Consumo Eletrico IOT" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/IOTEnergia_PCB.png" width="1000"> |
+| Circuito Elétrico. Segue o link para download do arquivo editavel: [Circuito Elétrico easyeda](https://goo.gl/VcahGX) <img alt="Circuito Monitor Consumo Eletrico IOT" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/IOTEnergia_circuit.png" width="1000"> |
+| Protótipo PCB Segue o link para download do arquivo editavel: [Projeto PCB easyeda](https://goo.gl/xMyhBx) <img alt="PCB Monitor Consumo Eletrico IOT" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/IOTEnergia_PCB.png" width="1000"> |
