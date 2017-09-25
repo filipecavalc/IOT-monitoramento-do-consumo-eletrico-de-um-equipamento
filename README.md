@@ -2,8 +2,8 @@
 Estudo e desenvolvimento de um dispositivo IoT para o monitoramento do consumo de uma tomada coletando, armazenando e disponibilizando dados coletados do dispositivo IoT na WEB.
 
 
-|Equipamentos|
-| ------ |
+Equipamentos| 
+------ |
 WEMOS D1 MINI PRO. Mais informações neste link: https://wiki.wemos.cc/products:d1:d1_mini_pro
 <img alt="WEMOS D1 MINI PRO SCHEMATIC" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/wemos_d1_mini_pro_pinout.png" width="800"> |
 
