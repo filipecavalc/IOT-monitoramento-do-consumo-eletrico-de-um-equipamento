@@ -11,7 +11,7 @@ Estudo e desenvolvimento de um dispositivo IoT para o monitoramento do consumo d
 | 2 x BORNE. Mais informações neste link: [Conector Borne KRE 2 Vias](https://goo.gl/vKmvR2) <br /> <img alt="Borne" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/Borne.png" width="200"> |
 | Conector macho <br /> <img alt="Conector Macho" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/conector_macho.jpg" width="150"> |
 | Modulo Tomada de energia <br />  <img alt="Modulo Tomada de energia" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/tomada1.jpg" width="150"> <img alt="Modulo Tomada de energia" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/tomada2.jpg" width="150"> <img alt="Modulo Tomada de energia" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/tomada3.jpg" width="150">|
-| Placa de Fenolite Perfurada <img alt="Placa de Fenolite Perfurada" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/placa-fenolite-perfurada.jpg" width="200"> |
+| Placa de Fenolite Perfurada <br /> <img alt="Placa de Fenolite Perfurada" src="https://github.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/blob/master/placa-fenolite-perfurada.jpg" width="200"> |
 
 
 | Protótipagem | 
