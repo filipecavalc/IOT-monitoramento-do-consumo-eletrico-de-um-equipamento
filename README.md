@@ -1,5 +1,4 @@
-# IOT Monitoramento do consumo eletrico de um equipamento
-### Estudo e desenvolvimento de um dispositivo IoT para o monitoramento do consumo de uma tomada coletando, armazenando e disponibilizando dados coletados do dispositivo IoT na WEB. <br /> ###
+# IOT Monitoramento do consumo eletrico de um equipamento <br />
 
 
 |Materiais e Equipamentos| 
