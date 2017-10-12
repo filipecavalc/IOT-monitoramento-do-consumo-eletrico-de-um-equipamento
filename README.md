@@ -1,6 +1,3 @@
-# IOT Monitoramento do consumo eletrico de um equipamento <br />
-
-
 |Materiais e Componentes| 
 | ------ |
 | WEMOS D1 MINI PRO Mais informações neste link: [GUIA WEMOS D1 MINI PRO](https://goo.gl/Gs3dgQ) <br /> <img alt="WEMOS D1 MINI PRO SCHEMATIC" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Materiais%20e%20componentes/wemos_d1_mini_pro_pinout.png" width="250"> |
@@ -20,3 +17,25 @@
 | Protótipo implementado em uma Placa de Fenolite Perfurada <br /> <img alt="Protótipo Placa Fenolite Perfurada Frente" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Prot%C3%B3tipo%20fenolite%20perfurado/Prototipo_circuito_fenolite_perfurado_cima.png" width="150"> <img alt="Protótipo Placa Fenolite Perfurada Trás" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Prot%C3%B3tipo%20fenolite%20perfurado/Prototipo_circuito_fenolite_perfurado_baixo.png" width="150">|
 |Versão teste de case para a placa de fenolite e demais componentes <br /> <img alt="Case Tampa" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20pr%C3%B3totipo/Tampa_case.png" width="150"> <img alt="Case Entrada Energia" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20pr%C3%B3totipo/Entrada_Energia_case.png" width="150"> <img alt="Case Saida Energia" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20pr%C3%B3totipo/Saida_Energia_case.png" width="150"> <img alt="Case Serial Wemos" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20pr%C3%B3totipo/Wemos_usb.png" width="150"> <img alt="Antena Case" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20pr%C3%B3totipo/Antena_case.png" width="150">|
 | Versão Final do Case, Arquivos em extensão solid nesse link: [Pasta no github com os arquivos em extensão para edição no solid](https://goo.gl/ZwWYU4) e extensão STL para impressão 3D neste link: [Pasta no github com os arquivos STL](https://goo.gl/EsVQsW) <br /> <img alt="case final peças" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20Vers%C3%A3o%20Final/Case_Final.PNG" width="200"> <img alt="case final montagem" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20Vers%C3%A3o%20Final/Case_Final_Paredes.PNG" width="150"> <img alt="case final montagem" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20Vers%C3%A3o%20Final/Case_Final_completo2.PNG" width="150"> <img alt="case final montagem" src="https://raw.githubusercontent.com/filipecavalc/IOT-monitoramento-do-consumo-eletrico-de-um-equipamento/master/Case%20Vers%C3%A3o%20Final/Case_final_completo.PNG" width="150"> |
+
+
+Antes de executar o código certifique-se de que você possui tudo oque é necessario.
+Como configurar a IDE Arduino para o Wemos e outros micro-controladores derivados do ESP8266: https://goo.gl/q3SYvy
+
+
+## Bibliotecas <br />
+Links para download das bibliotecas extras necessarias: <br />
+PubSubClient.h - https://goo.gl/xsstvb <br />
+NTPClient.h    - https://goo.gl/Fe1jGF <br />
+TimeLib.h      - https://goo.gl/TGHBP4 <br />
+```c
+#include <ESP8266WiFi.h>  // Importa a Biblioteca ESP8266WiFi
+#include <PubSubClient.h> // Importa a Biblioteca PubSubClient do MQTT
+#include <NTPClient.h>    // Importa a Biblioteca NTPClient para conexão com servidor NTP
+                          // para coletar o horario em formato Epoch
+#include <WiFiUdp.h>      // Importa a Biblioteca WiFiUdp para permitir enviar e receber pacotes via UDP
+#include <Time.h>         // Complemento da Biblioteca TimeLib.h
+#include <TimeLib.h>      // Importa Biblioteca para realizar a conversão do formato Epoch
+                          // para ISO no metodo epochToLabIoTFormat
+```
+
