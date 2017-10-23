@@ -1,6 +1,7 @@
 Antes de executar o código certifique-se de que você possui tudo oque é necessario.
 Como configurar a IDE Arduino para o Wemos e outros micro-controladores derivados do ESP8266: https://goo.gl/q3SYvy
 
+Link para download do código completo: https://goo.gl/1muHSx
 
 ## Bibliotecas <br />
 Links para download das bibliotecas extras necessarias: <br />
