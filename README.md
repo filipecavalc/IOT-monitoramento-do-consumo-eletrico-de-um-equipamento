@@ -195,6 +195,7 @@ void setup() {
   //Incia a Serial
   Serial.begin(9600);
   pinMode(pinoSensor_ACS712_5A, INPUT);
+  WiFi.begin(SSID, PASSWORD);
   reconectWiFi(); // conecta-se a rede WIFI
   initMQTT(); // conecta-se ao broker MQTT
 }
